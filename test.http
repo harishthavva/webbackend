@@ -1,7 +1,3 @@
-POST http://localhost:4000/api/auth
+GET http://localhost:4000/api/get
 Content-Type: application/json
 
-{
-    "email":"harish.thavva@gmail.com",
-    "password":"Harish@123"
-}

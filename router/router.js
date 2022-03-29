@@ -45,4 +45,6 @@ router.post("/signup", async (req,res)=>{
     }
 })
 
+router.get("/get", async (req,res)=> res.send("Hello World"))
+
 module.exports = router;
