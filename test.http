@@ -1,3 +1,10 @@
-GET http://localhost:4000/api/get
+POST http://localhost:4000/api/signup
 Content-Type: application/json
+
+{
+    "firstname":"Thavva",
+    "lastname":"Harish",
+    "email":"harih.thavva@gmail.com",
+    "password":"Harish@123"
+}
 
