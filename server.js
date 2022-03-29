@@ -19,4 +19,5 @@ app.use(cors())
 app.use('/api',userroute)
 app.use('/api',authroute)
 
-app.listen(4000, ()=> console.log("Listening to port 4000 !!!"))
+const port = process.env.PORT || 4000;
+app.listen(port, ()=> console.log("Listening to port `${port}` !!!"))
